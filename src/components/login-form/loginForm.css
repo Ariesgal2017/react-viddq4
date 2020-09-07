@@ -1,0 +1,65 @@
+
+body {
+}
+div#menu{
+  width: 100%;
+}
+#header {
+  padding-top: 26px;
+  width: 100%;
+}
+
+div{
+  min-height: 100%;
+}
+
+div.container{
+  flex-direction: column;
+  margin-top: 10px;
+  position: absolute;
+  width: 1000px;
+  min-height: 100%;
+}
+div.row {
+  columns: 50% 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+ul.buttons{
+  float: right;
+}
+
+div.twitter-column{
+  align-content: stretch;
+  min-height: 600px;
+  float: left;
+  background: url('./twitter.jpg') no-repeat left;
+  background-size: cover;
+  width: 48%;
+  border: thin solid red;
+}
+/*
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+*/
+
+div.login-form{
+  border: thin solid purple;
+  flex-direction: column;
+  float: right;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+}
+
+button.login{
+  align-items: center;
+}
